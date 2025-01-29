@@ -1,5 +1,5 @@
 ---
-title: "Mentat: AI-Driven Inference Device"
+title: "Home"
 layout: default
 ---
 
