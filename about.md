@@ -37,7 +37,7 @@ Medical staff often complain about the time spent inputting patient information,
 
 ## Logo
 
-![Figure 2: Mentat Logo Placeholder](assets/images/logo_placeholder.png)
+![Figure 2: Mentat Logo Placeholder](assets/images/logo.png)
 
 After iterative design, this logo reflects our vision of connectedness (circles united at the center) and the familiar DNA symbol for a clear medical identity.
 
