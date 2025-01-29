@@ -24,4 +24,4 @@ exclude:
 
 # (Optional) Configure your markdown processing
 markdown: kramdown
-
+permalink: /:path/
