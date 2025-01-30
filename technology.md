@@ -115,6 +115,19 @@ Below is a schematic illustrating how Mentat blends RAG and tokenization to move
 
 ---
 
+## Hardware
+
+Our future design envisions a handheld tablet that remains offline and preserves data integrity:
+
+1. **Nvidia Orin NX 16GB** – Core GPU for local inference.  
+2. **ReComputer J4012** – Carrier board for Orin NX.  
+3. **ReSpeaker Lite** – For natural language processing.  
+4. **Touch Screen & Speaker** – For interactive and audio outputs.  
+5. **Custom 3D-Printed Case** – Protects internal components.  
+6. **Battery & Charger** – Ensures portability and uninterrupted usage.
+
+---
+
 ## Conclusion
 
 By integrating proactive conversation templates, structured data storage, few-shot learning, and retrieval-augmented generation, Mentat provides a robust, *human-in-the-loop* system. This end-to-end approach helps medical teams collect patient data more reliably and generate targeted insights without compromising on security or data privacy.
