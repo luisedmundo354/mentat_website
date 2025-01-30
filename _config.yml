@@ -7,7 +7,7 @@ description: "An AI-driven inference device designed to transform medical decisi
 #   - jekyll-theme-slate
 #   - jekyll-theme-midnight
 #   - jekyll-theme-leap-day
-theme: minima
+theme: hacker
 
 # Set the base URL if you are using a project site
 # i.e., if your site is at https://username.github.io/my-research-project
