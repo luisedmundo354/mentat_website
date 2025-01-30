@@ -61,6 +61,7 @@ layout: default
 ## Want to Learn More?
 
 - [Our Solution](about.md) – Understand the core challenges Mentat addresses.
+- [Technology](technology.md) – Explore the technology behind Mentat.
 - [References](references.md) – Explore the scholarly references behind Mentat.
 
 ---
