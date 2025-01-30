@@ -44,7 +44,7 @@ Healthcare professionals manage the complex tasks of recording and monitoring pa
 
 ## Want to Learn More?
 
-- [The Problem](problem.md) – Understand the core challenges Mentat addresses.
+- [Our Solution](about.md) – Understand the core challenges Mentat addresses.
 - [References](references.md) – Explore the scholarly references behind Mentat.
 
 ---
@@ -52,9 +52,9 @@ Healthcare professionals manage the complex tasks of recording and monitoring pa
 ## Founders
 
 **Lauren Phillips**  
-\[lauren.phillips@example.com\]
+[lphill49@jhu.edu](mailto:lphill49@jhu.edu), 
 
 **Luis Brena**  
-\[luis.brena@example.com\]
+[lbrenap1@jhu.edu](mailto:lbrenap1@jhu.edu)
 
 ---
