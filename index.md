@@ -3,13 +3,18 @@ title: "Home"
 layout: default
 ---
 
-# Mentat: Transforming Medical Decision-Making
-
-**Mentat** is an AI-driven inference device designed to streamline medical decision-making and enhance patient care. It addresses the common pitfalls of manual data entry and verbal communication errors by integrating natural language understanding, small language model inference, and a secure local database.
+<!-- Logo at the top-left -->
+<div style="display: flex; align-items: center; margin-bottom: 1rem;">
+  <img src="assets/images/logo.png" alt="Mentat Logo" style="max-width: 80px; margin-right: 15px;">
+  <h1 style="margin: 0;">Mentat: Transforming Medical Decision-Making</h1>
+</div>
 
 ---
 
-![Placeholder for Mentat Hero Image](assets/images/hero_image_placeholder.png)
+<!-- Hero image placeholder below the header -->
+<div style="text-align: center; margin: 2rem 0;">
+  <img src="assets/images/hero_image_placeholder.png" alt="Mentat Hero Image" style="max-width: 100%;">
+</div>
 
 ---
 
@@ -41,5 +46,17 @@ Healthcare professionals manage the complex tasks of recording and monitoring pa
 
 ## Want to Learn More?
 
-- [About Mentat](about.md) – Dive into the design, research, and technical details.  
-- [References](references.md) – Explore the scholarly references and research behind Mentat.
+- [The Problem](problem.md) – Understand the core challenges Mentat addresses.
+- [References](references.md) – Explore the scholarly references behind Mentat.
+
+---
+
+## Founders
+
+**Lauren Phillips**  
+\[lauren.phillips@example.com\]
+
+**Luis Brena**  
+\[luis.brena@example.com\]
+
+---
