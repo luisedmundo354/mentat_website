@@ -1,11 +1,9 @@
 ---
-title: "About Mentat"
+title: "The Problem"
 layout: default
 ---
 
-# About Mentat
-
-## Introduction
+# The Problem
 
 Modern hospitals rely heavily on Electronic Medical Records (EMR) and Healthcare Management Systems (HMS), yet they still struggle with lengthy, error-prone manual tasks. **Mentat** was born out of the need to reduce the complexity of recording symptoms, patient histories, and verbal reports.
 
@@ -26,8 +24,6 @@ To understand if similar devices existed, we analyzed several patents dealing wi
 ### Figure Placeholder
 
 ![Figure 1: Example Patient-Clinician Interaction Model](assets/images/figure1_placeholder.png)
-
-*(Replace this placeholder with an actual patent-inspired diagram.)*
 
 ## Pitch
 
