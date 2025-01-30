@@ -45,7 +45,7 @@ layout: default
    - Minimizes manual effort and reduces transcription errors.
 
 2. **AI-Assisted Diagnostics**  
-   - Small language model (e.g., Phi 3.5 mini on LlamaEdge) runs locally.  
+   - Small language model, Phi 3.5 mini on LlamaEdge, runs locally.  
    - Integrates retrieval-augmented generation (RAG) for context-aware insights.
 
 3. **Secure and Offline**  
