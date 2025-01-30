@@ -19,7 +19,7 @@ Mentat begins by automating patient data collection through conversation prompts
   <!-- Slides -->
   <div class="carousel-slide" style="display: block;">
     <div style="width: 100%; aspect-ratio: 16/9; overflow: hidden; position: relative; background: #f0f0f0;">
-      <img src="assets/images/pipeline_1.png" 
+      <img src="/mentat/assets/images/pipeline_1.png" 
            alt="Recording Pipeline Overview 1" 
            style="width: 100%; height: 100%; object-fit: cover; position: absolute;">
     </div>
@@ -30,7 +30,7 @@ Mentat begins by automating patient data collection through conversation prompts
   
   <div class="carousel-slide" style="display: none;">
     <div style="width: 100%; aspect-ratio: 16/9; overflow: hidden; position: relative; background: #f0f0f0;">
-      <img src="assets/images/pipeline_2.png" 
+      <img src="/mentat/assets/images/pipeline_2.png" 
            alt="Recording Pipeline Overview 2" 
            style="width: 100%; height: 100%; object-fit: cover; position: absolute;">
     </div>
