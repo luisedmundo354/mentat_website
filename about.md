@@ -31,12 +31,6 @@ Medical staff often complain about the time spent inputting patient information,
 
 > “Our tool navigates large databases to ask the best questions for each individual patient, just as a physician would.” — *Mentat Core Team*
 
-## Logo
-
-![Figure 2: Mentat Logo Placeholder](assets/images/logo.png)
-
-After iterative design, this logo reflects our vision of connectedness (circles united at the center) and the familiar DNA symbol for a clear medical identity.
-
 ## Design & Technology
 
 ### Software
