@@ -23,7 +23,7 @@ To understand if similar devices existed, we analyzed several patents dealing wi
 
 ### Figure Placeholder
 
-![Figure 1: Example Patient-Clinician Interaction Model](assets/images/figure1_placeholder.png)
+![Figure 1: Example Patient-Clinician Interaction Model](assets/images/patient_tablet.png)
 
 ## Pitch
 
