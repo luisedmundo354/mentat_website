@@ -124,25 +124,11 @@ After data collection, Mentat shifts into an inference mode to support clinician
    - Mentat employs a retrieval pipeline to fetch additional medical references from a local corpus.  
    - RAG integrates database queries and the model’s knowledge to bolster the pre-diagnostic with relevant facts, common treatments, or cautionary notes.
 
-### Cosine Similarity & Embeddings
-
-To ensure relevant retrieval, we leverage **cosine similarity** between BioBERT embeddings:
-
-$$\text{cosine similarity}(A, B) = \frac{A \cdot B}{\|A\|\|B\|}$$
-
-where \(A\) and \(B\) are vector embeddings of text. Higher cosine similarity indicates higher relevance.
-
-We use **BioBERT tokenization** to generate these embeddings:
-
-$$V_x = \text{Embed}(x)$$
-
-where $x$ is an input and $V_x$ is the resulting vector. By comparing vectors, Mentat identifies the most pertinent documents in the corpus.
-
 ---
 
-## Few-Shot Learning
+## Few-Shot Prompting
 
-Mentat adapts to new clinical scenarios by incorporating **few-shot learning**:
+Mentat adapts to new clinical scenarios by incorporating **few-shot prompting**:
 
 - **Minimal Labeled Data**  
   The model can handle specific tasks with limited examples.  
