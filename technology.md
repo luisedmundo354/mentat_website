@@ -84,13 +84,13 @@ Mentat begins by automating patient data collection through conversation prompts
    When a medical professional makes a request—e.g., “Please document the patient’s symptoms”—Mentat starts a conversation template in which the model prompts the patient (or the professional) with relevant questions.
 
 2. **Sequential Q&A**  
-   - The model uses *regular expressions* plus a function $f(q)$ to rephrase or refine questions.  
-   - Answers are parsed with *syntactic decomposition* to extract key logical values $\{v_1, v_2, \dots, v_n\}$.  
+   - The model uses *regular expressions* plus a function f(q) to rephrase or refine questions.  
+   - Answers are parsed with *syntactic decomposition* to extract key logical values.  
    - These values dictate the next questions and build context for the eventual diagnostic step.
 
 3. **Condition Check & Data Saving**  
-   - Once a stopping criterion $(y)$ is met—i.e., enough information is gathered—the conversation concludes.  
-   - All captured text is organized into structured categories $\{C_1, C_2, \dots, C_n\}$ by internally prompting the language model.  
+   - Once a stopping criterion is met—i.e., enough information is gathered—the conversation concludes.  
+   - All captured text is organized into structured categories by internally prompting the language model.  
    - This information is stored in JSON format for easy retrieval and parsing later on.
 
 ---
