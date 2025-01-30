@@ -13,7 +13,7 @@ layout: default
 
 <!-- Hero image placeholder below the header -->
 <div style="text-align: center; margin: 2rem 0;">
-  <img src="assets/images/hero_image_placeholder.png" alt="Mentat Hero Image" style="max-width: 100%;">
+  <img src="assets/images/mentat_device_render.png" alt="Mentat Image" style="max-width: 100%;">
 </div>
 
 ---
