@@ -5,7 +5,11 @@ layout: default
 
 # Mentat: Transforming Medical Decision-Making
 
-**Mentat** is an AI-driven inference device designed to streamline medical decision-making and enhance patient care. By integrating natural language understanding, small language model inference, and a secure local database, it addresses the common pitfalls of manual data entry and verbal communication errors.
+**Mentat** is an AI-driven inference device designed to streamline medical decision-making and enhance patient care. It addresses the common pitfalls of manual data entry and verbal communication errors by integrating natural language understanding, small language model inference, and a secure local database.
+
+---
+
+![Placeholder for Mentat Hero Image](assets/images/hero_image_placeholder.png)
 
 ---
 
@@ -32,16 +36,6 @@ Healthcare professionals manage the complex tasks of recording and monitoring pa
 4. **Easy Integration**  
    - Designed for quick adoption into existing Healthcare Management Systems (HMS).  
    - Facilitates communication between nurses, doctors, and specialists.
-
----
-
-## Image Placeholder
-
-Below is a placeholder for an introductory or “hero” image (e.g., your logo or a conceptual graphic):
-
-![Placeholder for Mentat Hero Image](assets/images/hero_image_placeholder.png)
-
-*(Replace the above placeholder with your actual image.)*
 
 ---
 
