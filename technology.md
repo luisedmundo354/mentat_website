@@ -70,9 +70,7 @@ After data collection, Mentat shifts into an inference mode to support clinician
 
 To ensure relevant retrieval, we leverage **cosine similarity** between BioBERT embeddings:
 
-\[
-\text{cosine\_similarity}(A, B) = \frac{A \cdot B}{\|A\|\|B\|}
-\]
+$$ \text{cosine\_similarity}(A, B) = \frac{A \cdot B}{\|A\|\|B\|}$$
 
 where \(A\) and \(B\) are vector embeddings of text. Higher cosine similarity indicates higher relevance.
 
