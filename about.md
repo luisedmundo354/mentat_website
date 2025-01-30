@@ -56,14 +56,12 @@ Our future design envisions a handheld tablet that remains offline and preserves
 5. **Custom 3D-Printed Case** – Protects internal components.  
 6. **Battery & Charger** – Ensures portability and uninterrupted usage.
 
-![Figure 3: 3D Model of Mentat Tablet Concept](assets/images/tablet_3d.png)
-
 ## Future Plan
 
 Our roadmap includes:
 - Finalizing a handheld tablet with robust offline functionalities.  
 - Conducting pilot tests in select hospitals to demonstrate time and cost savings.  
-- Extending the language model to support multiple healthcare specialties.  
+- Extend the language model testing, generating a larger dataset.  
 
 ## Summary
 
