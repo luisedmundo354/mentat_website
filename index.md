@@ -18,7 +18,30 @@ layout: default
 
 ---
 
-Healthcare professionals manage the complex tasks of recording and monitoring patient data, relying on systems prone to errors and time-consuming verbal communication. **Mentat** provides an end-to-end solution that automates data collection, retrieval, and diagnostic insights using a small language model optimized for low-power GPUs. This approach ensures secure, offline operation that does not depend on external servers, preserving patient data integrity.
+<!-- Intro + Image side by side -->
+<div style="display: flex; align-items: flex-start; margin: 2rem 0;">
+  <div style="flex: 1; margin-right: 1rem;">
+    <h2>Meet Mentat</h2>
+    <p>
+      Healthcare professionals manage the complex tasks of recording 
+      and monitoring patient data, relying on systems prone to errors 
+      and time-consuming verbal communication. <strong>Mentat</strong> 
+      provides an end-to-end solution that automates data collection, 
+      retrieval, and diagnostic insights using a small language model 
+      optimized for low-power GPUs.
+    </p>
+    <p>
+      This approach ensures secure, offline operation that does not depend 
+      on external servers, preserving patient data integrity.
+    </p>
+  </div>
+  
+  <div style="flex: 1;">
+    <img src="assets/images/mentat_device_render.png" 
+         alt="Mentat Device Render" 
+         style="max-width: 100%; height: auto; border: 1px solid #ccc;">
+  </div>
+</div>
 
 ---
 
