@@ -68,7 +68,7 @@ layout: default
 ## Founders
 
 **Lauren Phillips**  
-[lphill49@jhu.edu](mailto:lphill49@jhu.edu), 
+[lphill49@jhu.edu](mailto:lphill49@jhu.edu)
 
 **Luis Brena**  
 [lbrenap1@jhu.edu](mailto:lbrenap1@jhu.edu)
