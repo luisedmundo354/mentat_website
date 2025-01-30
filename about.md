@@ -5,11 +5,15 @@ layout: default
 
 # Our Solution
 
+--
+
 ## The Problem
 
 Modern hospitals rely heavily on Electronic Medical Records (EMR) and Healthcare Management Systems (HMS), yet they still struggle with lengthy, error-prone manual tasks. **Mentat** was born out of the need to reduce the complexity of recording symptoms, patient histories, and verbal reports.
 
 > Numerous studies indicate the challenges of implementing EMRs. Even after adoption, they can create barriers for easy and intuitive information access (Rajkomar et al., 2019).
+
+--
 
 ## Field Survey
 
@@ -22,8 +26,6 @@ These inefficiencies translate into time lost, increased potential for errors, a
 ## Patent Survey
 
 To understand if similar devices existed, we analyzed several patents dealing with automated question-asking and symptom collection. While some aspects overlap (e.g., audio-based patient interaction), Mentat stands out by functioning as a comprehensive tablet device that can be used independently for preliminary patient interviews and integrated seamlessly with existing hospital data flows.
-
-### Figure Placeholder
 
 ![Figure 1: Example Patient-Clinician Interaction Model](assets/images/patient_tablet.png)
 
@@ -54,7 +56,7 @@ Our future design envisions a handheld tablet that remains offline and preserves
 5. **Custom 3D-Printed Case** – Protects internal components.  
 6. **Battery & Charger** – Ensures portability and uninterrupted usage.
 
-![Figure 3: 3D Model of Mentat Tablet Concept](assets/images/tablet_3d_placeholder.png)
+![Figure 3: 3D Model of Mentat Tablet Concept](assets/images/tablet_3d.png)
 
 ## Future Plan
 
