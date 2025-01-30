@@ -1,11 +1,11 @@
 ---
-title: "Our Solution"
+title: "Why Mentat?"
 layout: default
 ---
 
-# Our Solution
+# Why Mentat?
 
---
+---
 
 ## The Problem
 
@@ -13,7 +13,7 @@ Modern hospitals rely heavily on Electronic Medical Records (EMR) and Healthcare
 
 > Numerous studies indicate the challenges of implementing EMRs. Even after adoption, they can create barriers for easy and intuitive information access (Rajkomar et al., 2019).
 
---
+---
 
 ## Field Survey
 
@@ -34,27 +34,6 @@ To understand if similar devices existed, we analyzed several patents dealing wi
 Medical staff often complain about the time spent inputting patient information, especially in critical scenarios. **Mentat** offloads that burden by having natural conversations with waiting patients. The device summarizes key findings and organizes them for clinicians, who can then focus on providing the best possible care.  
 
 > “Our tool navigates large databases to ask the best questions for each individual patient, just as a physician would.” — *Mentat Core Team*
-
-## Design & Technology
-
-### Software
-
-- **Language Model:** Phi 3.5 mini deployed via LlamaEdge.  
-- **Context Limit:** 32,000 tokens for thorough conversation memory.  
-- **Dialogue Flow:** Utilizes question templates, regular expressions, and syntactic decomposition to systematically extract patient information.  
-- **Inference Process (RAG):** Combines local structured text data with a retrieval-augmented generation approach, using cosine similarity to deliver relevant context.  
-- **Few-Shot Learning:** Allows Mentat to adapt to various clinical scenarios with minimal additional data.
-
-### Hardware
-
-Our future design envisions a handheld tablet that remains offline and preserves data integrity:
-
-1. **Nvidia Orin NX 16GB** – Core GPU for local inference.  
-2. **ReComputer J4012** – Carrier board for Orin NX.  
-3. **ReSpeaker Lite** – For natural language processing.  
-4. **Touch Screen & Speaker** – For interactive and audio outputs.  
-5. **Custom 3D-Printed Case** – Protects internal components.  
-6. **Battery & Charger** – Ensures portability and uninterrupted usage.
 
 ## Future Plan
 
