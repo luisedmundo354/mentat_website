@@ -13,12 +13,70 @@ Mentat combines natural language understanding with secure, locally hosted infer
 
 Mentat begins by automating patient data collection through conversation prompts. A medical professional initiates the process, and Mentat’s language model guides the dialogue until all necessary information is gathered.
 
-<!-- Example images of the recording pipeline -->
-![Recording Pipeline Overview 1](assets/images/pipeline_1.png)
-*Figure 1. Mentat’s conversation-based system for gathering patient details.*
+<!-- CAROUSEL START -->
+<div class="carousel-container" style="max-width: 800px; margin: 1rem auto; position: relative;">
+  
+  <!-- Slides -->
+  <div class="carousel-slide" style="display: block;">
+    <div style="width: 100%; aspect-ratio: 16/9; overflow: hidden; position: relative; background: #f0f0f0;">
+      <img src="assets/images/pipeline_1.png" 
+           alt="Recording Pipeline Overview 1" 
+           style="width: 100%; height: 100%; object-fit: cover; position: absolute;">
+    </div>
+    <p style="text-align: center; font-style: italic; margin-top: 0.5rem;">
+      Figure 1. Mentat’s conversation-based system for gathering patient details.
+    </p>
+  </div>
+  
+  <div class="carousel-slide" style="display: none;">
+    <div style="width: 100%; aspect-ratio: 16/9; overflow: hidden; position: relative; background: #f0f0f0;">
+      <img src="assets/images/pipeline_2.png" 
+           alt="Recording Pipeline Overview 2" 
+           style="width: 100%; height: 100%; object-fit: cover; position: absolute;">
+    </div>
+    <p style="text-align: center; font-style: italic; margin-top: 0.5rem;">
+      Figure 2. Iterative question prompting and template-based dialogue flow.
+    </p>
+  </div>
+  
+  <!-- Arrow Buttons -->
+  <button class="carousel-prev" 
+          style="position: absolute; top: 50%; left: 5px; transform: translateY(-50%); font-size: 2rem; background: transparent; border: none; cursor: pointer;">
+    &#10094;
+  </button>
+  <button class="carousel-next" 
+          style="position: absolute; top: 50%; right: 5px; transform: translateY(-50%); font-size: 2rem; background: transparent; border: none; cursor: pointer;">
+    &#10095;
+  </button>
+</div>
 
-![Recording Pipeline Overview 2](assets/images/pipeline_2.png)
-*Figure 2. Iterative question prompting and template-based dialogue flow.*
+<!-- Inline JavaScript for Carousel -->
+<script>
+  (function() {
+    const slides = document.querySelectorAll('.carousel-slide');
+    let currentIndex = 0;
+
+    const prevButton = document.querySelector('.carousel-prev');
+    const nextButton = document.querySelector('.carousel-next');
+
+    function showSlide(index) {
+      slides.forEach((slide, i) => {
+        slide.style.display = (i === index) ? 'block' : 'none';
+      });
+    }
+
+    prevButton.addEventListener('click', () => {
+      currentIndex = (currentIndex === 0) ? slides.length - 1 : currentIndex - 1;
+      showSlide(currentIndex);
+    });
+
+    nextButton.addEventListener('click', () => {
+      currentIndex = (currentIndex === slides.length - 1) ? 0 : currentIndex + 1;
+      showSlide(currentIndex);
+    });
+  })();
+</script>
+<!-- CAROUSEL END -->
 
 ### How It Works
 
@@ -41,11 +99,11 @@ Mentat begins by automating patient data collection through conversation prompts
 
 Mentat uses **Phi 3.5 mini**, deployed via **LlamaEdge**, to handle natural language tasks efficiently:
 
-- **Context Window**:  
+- **Context Window**  
   We have set a context limit of 32,000 tokens to evaluate and manage memory usage.  
-- **No Fine-Tuning**:  
+- **No Fine-Tuning**  
   During both implementation and testing, we used the base model without additional fine-tuning.  
-- **Proactive Prompts**:  
+- **Proactive Prompts**  
   Mentat maintains a continuous conversation by using a sequence of question templates that iteratively engage the model until it completes the data-collection task.
 
 ---
@@ -70,7 +128,9 @@ After data collection, Mentat shifts into an inference mode to support clinician
 
 To ensure relevant retrieval, we leverage **cosine similarity** between BioBERT embeddings:
 
-$$ \text{cosine\_similarity}(A, B) = \frac{A \cdot B}{\|A\|\|B\|}$$
+\[
+\text{cosine\_similarity}(A, B) = \frac{A \cdot B}{\|A\|\|B\|}
+\]
 
 where \(A\) and \(B\) are vector embeddings of text. Higher cosine similarity indicates higher relevance.
 
@@ -88,11 +148,11 @@ where \(x\) is an input and \(V_x\) is the resulting vector. By comparing vector
 
 Mentat adapts to new clinical scenarios by incorporating **few-shot learning**:
 
-- **Minimal Labeled Data**:  
+- **Minimal Labeled Data**  
   The model can handle specific tasks with limited examples.  
-- **In-Context Learning**:  
+- **In-Context Learning**  
   We provide short demonstrations or instructions, and Mentat then refines its outputs accordingly.  
-- **Improved Adaptability**:  
+- **Improved Adaptability**  
   This approach enhances Mentat’s ability to handle diverse medical inquiries and maintain consistent answer formatting.
 
 ---
@@ -101,8 +161,16 @@ Mentat adapts to new clinical scenarios by incorporating **few-shot learning**:
 
 Below is a schematic illustrating how Mentat blends RAG and tokenization to move from a clinician’s question to a grounded diagnostic suggestion:
 
-![RAG and Tokenization Schematic](assets/images/rag_tokenization_schematic.png)
-*Figure 3. Schematic for retrieval-augmented generation with BioBERT embeddings.*
+<div style="max-width: 800px; margin: 1rem auto;">
+  <div style="width: 100%; aspect-ratio: 16/9; position: relative; background: #f0f0f0;">
+    <img src="assets/images/rag_tokenization_schematic.png" 
+         alt="RAG and Tokenization Schematic" 
+         style="width: 100%; height: 100%; object-fit: contain; position: absolute;">
+  </div>
+  <p style="text-align: center; font-style: italic; margin-top: 0.5rem;">
+    Figure 3. Schematic for retrieval-augmented generation with BioBERT embeddings.
+  </p>
+</div>
 
 1. **Diagnostic & Corpus**: Mentat takes the preliminary diagnostic and queries local medical records.  
 2. **BioBERT Tokenization**: Converts text into embeddings, capturing semantic context.  
@@ -129,4 +197,3 @@ Our future design envisions a handheld tablet that remains offline and preserves
 ## Conclusion
 
 By integrating proactive conversation templates, structured data storage, few-shot learning, and retrieval-augmented generation, Mentat provides a robust, *human-in-the-loop* system. This end-to-end approach helps medical teams collect patient data more reliably and generate targeted insights without compromising on security or data privacy.
-
