@@ -84,13 +84,13 @@ Mentat begins by automating patient data collection through conversation prompts
    When a medical professional makes a request—e.g., “Please document the patient’s symptoms”—Mentat starts a conversation template in which the model prompts the patient (or the professional) with relevant questions.
 
 2. **Sequential Q&A**  
-   - The model uses *regular expressions* plus a function \(f(q)\) to rephrase or refine questions.  
-   - Answers are parsed with *syntactic decomposition* to extract key logical values \(\{v_1, v_2, \dots, v_n\}\).  
+   - The model uses *regular expressions* plus a function $f(q)$ to rephrase or refine questions.  
+   - Answers are parsed with *syntactic decomposition* to extract key logical values $\{v_1, v_2, \dots, v_n\}$.  
    - These values dictate the next questions and build context for the eventual diagnostic step.
 
 3. **Condition Check & Data Saving**  
-   - Once a stopping criterion \((y)\) is met—i.e., enough information is gathered—the conversation concludes.  
-   - All captured text is organized into structured categories \(\{C_1, C_2, \dots, C_n\}\) by internally prompting the language model.  
+   - Once a stopping criterion $(y)$ is met—i.e., enough information is gathered—the conversation concludes.  
+   - All captured text is organized into structured categories $\{C_1, C_2, \dots, C_n\}$ by internally prompting the language model.  
    - This information is stored in JSON format for easy retrieval and parsing later on.
 
 ---
@@ -128,19 +128,15 @@ After data collection, Mentat shifts into an inference mode to support clinician
 
 To ensure relevant retrieval, we leverage **cosine similarity** between BioBERT embeddings:
 
-\[
-\text{cosine\_similarity}(A, B) = \frac{A \cdot B}{\|A\|\|B\|}
-\]
+$$\text{cosine\_similarity}(A, B) = \frac{A \cdot B}{\|A\|\|B\|}$$
 
 where \(A\) and \(B\) are vector embeddings of text. Higher cosine similarity indicates higher relevance.
 
 We use **BioBERT tokenization** to generate these embeddings:
 
-\[
-V_x = \text{Embed}(x)
-\]
+$$V_x = \text{Embed}(x)$$
 
-where \(x\) is an input and \(V_x\) is the resulting vector. By comparing vectors, Mentat identifies the most pertinent documents in the corpus.
+where $x$ is an input and $V_x$ is the resulting vector. By comparing vectors, Mentat identifies the most pertinent documents in the corpus.
 
 ---
 
