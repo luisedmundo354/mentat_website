@@ -3,7 +3,9 @@ title: "The Problem"
 layout: default
 ---
 
-# The Problem
+# Our Solution
+
+## The Problem
 
 Modern hospitals rely heavily on Electronic Medical Records (EMR) and Healthcare Management Systems (HMS), yet they still struggle with lengthy, error-prone manual tasks. **Mentat** was born out of the need to reduce the complexity of recording symptoms, patient histories, and verbal reports.
 
@@ -64,10 +66,6 @@ Our roadmap includes:
 ## Summary
 
 **Mentat** aims to streamline data collection, reduce manual errors, and enhance diagnostic support for clinicians. Our solution stands as an effective tool for busy healthcare environments, combining advanced AI with user-centric design to improve both patient and provider experiences.
-
-
-- **Contact**: [lphill49@jhu.edu](mailto:lphill49@jhu.edu), [lbrenap1@jhu.edu](mailto:lbrenap1@jhu.edu)
-- **GitHub**: [github.com/janedoe](https://github.com/janedoe)
 
 [Back to Home](./index.md)
 
