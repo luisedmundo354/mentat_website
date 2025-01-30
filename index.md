@@ -18,8 +18,6 @@ layout: default
 
 ---
 
-## Abstract
-
 Healthcare professionals manage the complex tasks of recording and monitoring patient data, relying on systems prone to errors and time-consuming verbal communication. **Mentat** provides an end-to-end solution that automates data collection, retrieval, and diagnostic insights using a small language model optimized for low-power GPUs. This approach ensures secure, offline operation that does not depend on external servers, preserving patient data integrity.
 
 ---
