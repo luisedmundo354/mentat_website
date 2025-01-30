@@ -11,13 +11,6 @@ layout: default
 
 ---
 
-<!-- Hero image placeholder below the header -->
-<div style="text-align: center; margin: 2rem 0;">
-  <img src="assets/images/mentat_device_render.png" alt="Mentat Image" style="max-width: 100%;">
-</div>
-
----
-
 <!-- Intro + Image side by side -->
 <div style="display: flex; align-items: flex-start; margin: 2rem 0;">
   <div style="flex: 1; margin-right: 1rem;">
