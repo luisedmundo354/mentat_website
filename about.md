@@ -1,5 +1,5 @@
 ---
-title: "The Problem"
+title: "Our Solution"
 layout: default
 ---
 
