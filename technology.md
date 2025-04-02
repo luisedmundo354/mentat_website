@@ -171,8 +171,7 @@ Our future design envisions a handheld tablet that remains offline and preserves
 2. **ReComputer J4012** – Carrier board for Orin NX.  
 3. **ReSpeaker Lite** – For natural language processing.  
 4. **Touch Screen & Speaker** – For interactive and audio outputs.  
-5. **Custom 3D-Printed Case** – Protects internal components.  
-6. **Battery & Charger** – Ensures portability and uninterrupted usage.
+5. **Custom 3D-Printed Case** – Protects internal components. 
 
 ---
 
