@@ -145,7 +145,7 @@ Below is a schematic illustrating how Mentat blends RAG and tokenization to move
 
 <div style="max-width: 800px; margin: 1rem auto;">
   <div style="width: 100%; aspect-ratio: 16/9; position: relative; background: #f0f0f0;">
-    <img src="/mentat/assets/images/rag_tokenization_schematic.png" 
+    <img src="{{ site.baseurl }}/assets/images/rag_tokenization_schematic.png" 
          alt="RAG and Tokenization Schematic" 
          style="width: 100%; height: 100%; object-fit: contain; position: absolute;">
   </div>
